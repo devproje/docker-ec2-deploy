@@ -1,0 +1,24 @@
+{
+  "name": "docker-web-app",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "bun run app.js --hot",
+    "build": "bun build --compile --outfile dist/server app.js"
+  },
+  "keywords": [
+    "express",
+    "docker",
+    "github-actions",
+    "ecr"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
