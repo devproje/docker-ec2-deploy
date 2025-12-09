@@ -3,7 +3,7 @@ name: Build and Deploy to ECR/EC2
 on:
   push:
     branches:
-      - main # main 브랜치에 push 될 때만 실행
+      - master # main 브랜치에 push 될 때만 실행
 
 env:
   AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }} # AWS Region 설정
